@@ -237,6 +237,7 @@ table {
   right: 0; }
 
 nav {
+  box-shadow: none !important;
   background: #223c42 !important; }
   nav .nav__wrapper {
     background: #223c42;
