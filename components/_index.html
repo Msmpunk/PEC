@@ -5,25 +5,25 @@
       <nav>
         <div class="nav__wrapper"><img class="bran__img" src="./img/pec.png" alt="" srcset=""/>
           <ul class="right hide-on-med-and-down" id="nav-mobile">
-            <li><a href="autor.html">Inicio</a></li>
-            <li><a href="resumen.html">Nosotros</a></li>
-            <li><a href="preguntas.html">Contactanos</a></li>
-            <li><a href="bibliografia.html">Material</a></li>
+            <li><a data-scroll="data-scroll" href="#inicio">Inicio</a></li>
+            <li><a data-scroll="data-scroll" href="#beneficios">Beneficios</a></li>
+            <li><a data-scroll="data-scroll" href="#locaction">Donde estamos</a></li>
+            <li><a data-scroll="data-scroll" href="#contacto">Contactanos</a></li>
           </ul>
         </div>
       </nav>
     </div>
   </div>
-  <div class="img-content">
+  <div class="img-content" id="inicio">
     <div class="main__title">
       <h1>Termina tu prepa y empieza a cumplir tus sueños</h1>
     </div>
   </div>
-  <div class="info-org">
+  <div class="info-org" id="beneficios">
     <div class="container">
-      <h2 class="title-info">Termina tu prepa en 6 meses</h2>
+      <h2 class="center-align">Termina tu prepa en 6 meses</h2>
       <div class="row divide-line">
-        <div class="col s4">
+        <div class="col s12 m4 l4">
           <div class="custom-card">
             <div class="card-bd">
               <div class="img-container"><img src="./img/elementary.svg" alt=""/></div>
@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <div class="col s4">
+        <div class="col s12 m4 l4">
           <div class="custom-card">
             <div class="card-bd">
               <div class="img-container"><img src="./img/professor.svg" alt=""/></div>
@@ -49,7 +49,7 @@
             </div>
           </div>
         </div>
-        <div class="col s4">
+        <div class="col s12 m4 l4">
           <div class="custom-card">
             <div class="card-bd">
               <div class="img-container"><img src="./img/hourglass.svg" alt=""/></div>
@@ -64,7 +64,7 @@
       </div>
     </div>
   </div>
-  <div class="direction-content">
+  <div class="direction-content" id="locaction">
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -79,41 +79,43 @@
       </div>
     </div>
   </div>
-  <div class="contact-content">
+  <div class="contact-content" id="contacto">
     <div class="container">
       <h1 class="center-align">No te quedes con las ganas, da el primer paso.</h1>
-      <div class="row form__content">
-        <div class="col s5">
+      <div class="row">
+        <div class="col s12 m12 l5">
           <h5 class="center-align">No dejes para mañana lo que puedas hacer hoy, termina tu prepa en 6 meses.</h5><img class="start__now" src="./img/graduation.svg" alt="Termina tu prepa en un examen"/>
         </div>
-        <div class="col s7">
-          <form>
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="disabled" placeholder="" type="text"/>
-                <label>Nombre Completo</label>
+        <div class="col s12 m12 l7">
+          <div class="form__content">
+            <form>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="disabled" placeholder="" type="text"/>
+                  <label>Nombre Completo</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <input placeholder="" type="text"/>
-                <label>Correo</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input placeholder="" type="text"/>
+                  <label>Correo</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="email" placeholder="" type="text"/>
-                <label>Numero de celular</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" placeholder="" type="text"/>
+                  <label>Numero de celular</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <textarea class="materialize-textarea textarea" placeholder="" type="text"></textarea>
-                <label>Mensaje</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea class="materialize-textarea textarea" placeholder="" type="text"></textarea>
+                  <label>Mensaje</label>
+                </div>
               </div>
-            </div>
-            <button class="btn btn-primary btn-send-message" id="send-form" type="submit">Enviar</button>
-          </form>
+              <button class="btn btn-primary btn-send-message" id="send-form" type="submit">Enviar</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -121,13 +123,13 @@
   <div class="footer-content">
     <div class="container">
       <div class="row">
-        <div class="col s4 center-align">
+        <div class="col s12 m2 l4 center-align footer_grid">
           <div class="card-body">
             <p class="card-title">PEC</p>
             <p class="card-text">Terminos y condiciones</p>
           </div>
         </div>
-        <div class="col s4">
+        <div class="col s12 m4 l4 footer_grid">
           <div class="row center-left">
             <div class="col s4">
               <div class="card-body">
@@ -151,7 +153,7 @@
             </div>
           </div>
         </div>
-        <div class="col s4">
+        <div class="col s12 m6 l4 footer_grid">
           <div class="card-body">
             <p class="card-title center-align">Siguenos en nuestras redes sociales</p>
             <div class="sosial__network"><a target="_blank" href="https://www.facebook.com/Programa-Educativo-De-Capacitaci%C3%B3n-Pec-169217920545929/?modal=admin_todo_tour"><i class="fab fa-facebook-square facebook__icon"></i></a><a target="_blank" href="https://www.facebook.com/Programa-Educativo-De-Capacitaci%C3%B3n-Pec-169217920545929/?modal=admin_todo_tour"><i class="fab fa-twitter-square twitter__icon"></i></a><a target="_blank" href="https://www.facebook.com/Programa-Educativo-De-Capacitaci%C3%B3n-Pec-169217920545929/?modal=admin_todo_tour"><i class="fab fa-instagram instagram__icon"></i></a></div>

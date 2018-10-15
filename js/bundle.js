@@ -2,10 +2,12 @@
 'use strict';
 
 (function (w) {
+
   var span = document.getElementsByClassName("close-modal")[0];
   var sendForm = document.getElementById('send-form');
   var modalElment = document.getElementById('myModal');
   var innerModal = document.getElementById('modalContent');
+  var scroll = new SmoothScroll('a[href*="#"]');
 
   span.onclick = function () {
     modalElment.style.display = "none";

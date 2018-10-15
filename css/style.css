@@ -45,7 +45,7 @@ table {
   text-align: center; }
   .img-content .main__title {
     font-family: "Poppins", sans-serif;
-    margin-top: -25%;
+    margin-top: -10%;
     font-weight: bold;
     width: 100%;
     color: #2f3e44; }
@@ -109,6 +109,8 @@ table {
 
 .contact-content {
   padding: 4em 0; }
+  .contact-content h1 {
+    margin-bottom: 1em; }
 
 .footer-content {
   font-family: "Rubik", sans-serif;
@@ -118,6 +120,9 @@ table {
   font-size: 15px;
   line-height: 130%; }
 
+.footer_grid {
+  margin: 10px 0; }
+
 .start__now {
   width: 70%;
   margin: auto;
@@ -126,8 +131,7 @@ table {
   height: 44%; }
 
 .form__content {
-  padding: 2em;
-  margin: 5em 0;
+  padding: 3em;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
@@ -138,7 +142,7 @@ table {
   margin: 5em 0; }
 
 .textarea {
-  height: 10.7em !important; }
+  height: 6.7em !important; }
 
 .sosial__network {
   margin-top: 5px;
@@ -197,6 +201,23 @@ table {
   margin: auto;
   display: block !important; }
 
+@media only screen and (max-width: 600px) {
+  .img-content .main__title h1 {
+    width: 80%;
+    font-size: 30px; }
+  .info-org h2 {
+    font-size: 30px; }
+  .info-org .custom-card .card-bd {
+    margin: 3em 0; }
+  .card-direction .display-4 {
+    font-size: 30px; }
+  .contact-content h1 {
+    font-size: 30px; }
+  .start__now {
+    display: none; }
+  .footer_grid {
+    text-align: center; } }
+
 .nav-bar-header {
   box-shadow: 1px 0px 12px;
   background-color: #223c42;
@@ -206,7 +227,6 @@ table {
   right: 0; }
 
 nav {
-  box-shadow: none !important;
   background: #223c42 !important; }
   nav .nav__wrapper {
     background: #223c42;
