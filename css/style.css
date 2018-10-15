@@ -145,10 +145,12 @@ table {
   display: flex;
   align-items: center;
   justify-content: center; }
-  .sosial__network i {
-    margin: 5px;
-    font-size: 50px;
-    cursor: pointer; }
+  .sosial__network a {
+    color: white; }
+    .sosial__network a i {
+      margin: 5px;
+      font-size: 50px;
+      cursor: pointer; }
 
 .facebook__icon:hover {
   color: #80d8ff; }
@@ -158,6 +160,42 @@ table {
 
 .instagram__icon:hover {
   color: #e91e63; }
+
+.modal__custom {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000a1; }
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 3em 20px;
+  width: 60% !important;
+  border-radius: 10px; }
+  .modal-content p {
+    margin: 0; }
+
+/* The Close Button */
+.close-modal {
+  width: 150px;
+  margin: auto; }
+  .close-modal:hover, .close-modal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
+
+.btn-primary {
+  width: 150px;
+  margin: auto;
+  display: block !important; }
 
 .nav-bar-header {
   box-shadow: 1px 0px 12px;
