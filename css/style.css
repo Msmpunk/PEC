@@ -182,10 +182,10 @@ table {
   background-color: #fefefe;
   margin: auto;
   padding: 3em 20px;
-  width: 60% !important;
+  width: 60%;
   border-radius: 10px; }
-  .modal-content p {
-    margin: 0; }
+  .modal-content h4 {
+    font-weight: bold; }
 
 /* The Close Button */
 .close-modal {
@@ -220,7 +220,13 @@ table {
   .footer_grid {
     text-align: center; }
   .divide-line {
-    margin: 3em 0 1em 0; } }
+    margin: 3em 0 1em 0; }
+  .modal-content {
+    width: 90%; }
+    .modal-content h4 {
+      font-size: 20px; }
+    .modal-content h5 {
+      font-size: 16px; } }
 
 .nav-bar-header {
   box-shadow: 1px 0px 12px;
