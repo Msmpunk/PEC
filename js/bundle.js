@@ -9,6 +9,11 @@
   var innerModal = document.getElementById('modalContent');
   var scroll = new SmoothScroll('a[href*="#"]');
 
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {});
+  });
+
   span.onclick = function () {
     modalElment.style.display = "none";
   };

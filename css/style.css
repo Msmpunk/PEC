@@ -209,14 +209,18 @@ table {
     font-size: 30px; }
   .info-org .custom-card .card-bd {
     margin: 3em 0; }
-  .card-direction .display-4 {
-    font-size: 30px; }
+  .card-direction {
+    padding: 3em 0; }
+    .card-direction .display-4 {
+      font-size: 30px; }
   .contact-content h1 {
     font-size: 30px; }
   .start__now {
     display: none; }
   .footer_grid {
-    text-align: center; } }
+    text-align: center; }
+  .divide-line {
+    margin: 3em 0 1em 0; } }
 
 .nav-bar-header {
   box-shadow: 1px 0px 12px;
