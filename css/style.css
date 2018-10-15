@@ -115,7 +115,8 @@ table {
   background-color: #223c42;
   color: white;
   padding: 1em;
-  font-size: 17px; }
+  font-size: 15px;
+  line-height: 130%; }
 
 .start__now {
   width: 70%;
@@ -148,6 +149,15 @@ table {
     margin: 5px;
     font-size: 50px;
     cursor: pointer; }
+
+.facebook__icon:hover {
+  color: #80d8ff; }
+
+.twitter__icon:hover {
+  color: #03a9f4; }
+
+.instagram__icon:hover {
+  color: #e91e63; }
 
 .nav-bar-header {
   box-shadow: 1px 0px 12px;
