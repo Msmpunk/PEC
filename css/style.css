@@ -76,7 +76,7 @@ table {
   margin: 10em 0 1em 0; }
 
 .info-org {
-  padding: 1em 0;
+  padding: 6em 0;
   color: black;
   background: white; }
   .info-org .custom-card {
@@ -108,7 +108,7 @@ table {
   text-align: center; }
 
 .contact-content {
-  padding: 4em 0; }
+  padding: 6em 0; }
   .contact-content h1 {
     margin-bottom: 1em; }
 
@@ -230,7 +230,7 @@ table {
 
 .nav-bar-header {
   box-shadow: 1px 0px 12px;
-  background-color: #223c42;
+  background-color: white;
   position: fixed;
   z-index: 1000;
   left: 0;
@@ -238,16 +238,16 @@ table {
 
 nav {
   box-shadow: none !important;
-  background: #223c42 !important; }
+  background: white !important; }
   nav .nav__wrapper {
-    background: #223c42;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between; }
+    nav .nav__wrapper a {
+      color: #2f3e44; }
     nav .nav__wrapper .bran__img {
-      width: 50px;
-      border: 6px solid #2f3e44;
-      border-radius: 50%;
+      width: 70px;
       cursor: pointer; }
 
 body {
