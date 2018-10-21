@@ -215,6 +215,8 @@ table {
       font-size: 30px; }
   .contact-content h1 {
     font-size: 30px; }
+  .form__content {
+    padding: 2em 1em; }
   .start__now {
     display: none; }
   .footer_grid {
