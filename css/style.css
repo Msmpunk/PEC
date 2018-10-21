@@ -36,7 +36,7 @@ table {
   border-spacing: 0; }
 
 .img-content {
-  background-image: url("../img/help1.jpg");
+  background-image: url("../img/img1.jpg");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,13 +52,13 @@ table {
     .img-content .main__title h1 {
       width: 80%;
       margin: auto;
-      color: #505050;
+      color: white;
       font-size: 4.2rem;
       line-height: 145%;
       border-radius: 19px;
       padding: .3em .5em;
       font-weight: 600;
-      background: #dcd7c39e;
+      background: #0202029e;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 .title-info {
